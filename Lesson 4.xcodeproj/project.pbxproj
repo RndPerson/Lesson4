@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC42FE18258D201F00A8D6B1 /* PushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42FE17258D201F00A8D6B1 /* PushedViewController.swift */; };
+		AC42FE1D258D312700A8D6B1 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42FE1C258D312700A8D6B1 /* PopUpViewController.swift */; };
 		ACC5C5EC258634D000141D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5C5EB258634D000141D18 /* AppDelegate.swift */; };
 		ACC5C5EE258634D000141D18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5C5ED258634D000141D18 /* SceneDelegate.swift */; };
 		ACC5C5F0258634D000141D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5C5EF258634D000141D18 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		ACC5C5F8258634D200141D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC5C5F6258634D200141D18 /* LaunchScreen.storyboard */; };
 		ACC5C603258634D200141D18 /* Lesson_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5C602258634D200141D18 /* Lesson_4Tests.swift */; };
 		ACC5C60E258634D200141D18 /* Lesson_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC5C60D258634D200141D18 /* Lesson_4UITests.swift */; };
+		ACFB5FC5258D521D0043692E /* AnimeSquareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5FC4258D521D0043692E /* AnimeSquareController.swift */; };
+		ACFB5FCA258D5C3F0043692E /* ThreeViewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB5FC9258D5C3F0043692E /* ThreeViewsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC42FE17258D201F00A8D6B1 /* PushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushedViewController.swift; sourceTree = "<group>"; };
+		AC42FE1C258D312700A8D6B1 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		ACC5C5E8258634D000141D18 /* Lesson 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC5C5EB258634D000141D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACC5C5ED258634D000141D18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		ACC5C609258634D200141D18 /* Lesson 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC5C60D258634D200141D18 /* Lesson_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_4UITests.swift; sourceTree = "<group>"; };
 		ACC5C60F258634D200141D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFB5FC4258D521D0043692E /* AnimeSquareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSquareController.swift; sourceTree = "<group>"; };
+		ACFB5FC9258D5C3F0043692E /* ThreeViewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC42FE16258D1F8C00A8D6B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACC5C5EF258634D000141D18 /* ViewController.swift */,
+				AC42FE17258D201F00A8D6B1 /* PushedViewController.swift */,
+				AC42FE1C258D312700A8D6B1 /* PopUpViewController.swift */,
+				ACFB5FC4258D521D0043692E /* AnimeSquareController.swift */,
+				ACFB5FC9258D5C3F0043692E /* ThreeViewsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		ACC5C5DF258634D000141D18 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +119,9 @@
 		ACC5C5EA258634D000141D18 /* Lesson 4 */ = {
 			isa = PBXGroup;
 			children = (
+				AC42FE16258D1F8C00A8D6B1 /* Controllers */,
 				ACC5C5EB258634D000141D18 /* AppDelegate.swift */,
 				ACC5C5ED258634D000141D18 /* SceneDelegate.swift */,
-				ACC5C5EF258634D000141D18 /* ViewController.swift */,
 				ACC5C5F1258634D000141D18 /* Main.storyboard */,
 				ACC5C5F4258634D200141D18 /* Assets.xcassets */,
 				ACC5C5F6258634D200141D18 /* LaunchScreen.storyboard */,
@@ -258,7 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC42FE1D258D312700A8D6B1 /* PopUpViewController.swift in Sources */,
 				ACC5C5F0258634D000141D18 /* ViewController.swift in Sources */,
+				AC42FE18258D201F00A8D6B1 /* PushedViewController.swift in Sources */,
+				ACFB5FC5258D521D0043692E /* AnimeSquareController.swift in Sources */,
+				ACFB5FCA258D5C3F0043692E /* ThreeViewsController.swift in Sources */,
 				ACC5C5EC258634D000141D18 /* AppDelegate.swift in Sources */,
 				ACC5C5EE258634D000141D18 /* SceneDelegate.swift in Sources */,
 			);
