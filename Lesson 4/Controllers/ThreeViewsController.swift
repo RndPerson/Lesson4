@@ -22,7 +22,9 @@ class ThreeViewsController: UIViewController {
     }
     
     @IBAction func tapSomeView(_ sender: Any) {
-        someLeadingConstraint.constant = 0
-        someView.backgroundColor = .green
+        UIView.animate (withDuration: 2.3) {
+            self.someLeadingConstraint.constant = 0
+            self.someView.backgroundColor = .green
+        }
     }
 }
